@@ -1,0 +1,7 @@
+{
+  "backend": "xgboost",
+  "baseline_logreg_accuracy": 0.726,
+  "model_accuracy": 0.694,
+  "model_roc_auc": 0.7643,
+  "model_f1": 0.714
+}
