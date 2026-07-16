@@ -100,7 +100,7 @@ if submitted:
     }])
 
     X = encode(raw)[FEATURE_COLUMNS]
-    proba = model.predict_proba(X)[0, 1]
+    proba = float(model.predict_proba(X)[0, 1])
 
     st.divider()
     st.subheader("Prediction")
